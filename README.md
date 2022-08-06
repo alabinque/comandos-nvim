@@ -43,7 +43,7 @@ Usam `ESC` para entrar no modo de comando que é onde vocês inserem os comandos
 |`:w`     | Salvar    |
 | `:wq`   | Salvar e sair|
 | `:q!`   | Sair sem salvar (forçado) |
-| `:e <caminho> | Abre o arquivo no vim |
+| `:e <caminho>` | Abre o arquivo no vim |
 | `:term` ou `:terminal` | Abre o terminal no Vim | 
 
 ### Comandos de Pesquisa e Substituição
