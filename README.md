@@ -60,7 +60,7 @@ Usam `ESC` para entrar no modo de comando que é onde vocês inserem os comandos
 |`/<palavra>`     | Pesquisa <palavra no arquivo> |
 |`n`     | Próxima ocorrência de palavra |
 |`:s/<a ser substituido>/<o que tem que ser substituido>` | Substituir a 1ª ocorrencia de a por b ¹|
-|`:s/<a ser substituido>/<o que tem que ser substituido>` | Substituir todas as ocorrencias de a por b ¹ |
+|`:%s/<a ser substituido>/<o que tem que ser substituido>` | Substituir todas as ocorrencias de a por b ¹ |
 
 ¹ O comando aceita regex basta usar `:s/<padrão regex>/.../`
  
