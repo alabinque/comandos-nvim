@@ -89,4 +89,6 @@ Usa `i` para entrar no modo de edição onde vamos inserir o código.
 |---------|-----------|
 |`F3`     | Abre/Fecha arquivos do projeto      |
 |`F2`     | Busca arquivos na barra de arquivos |
+ |`:sp <arquivo>`     | Divide a tela em duas horizontalmente abrindo \<arquivo\> no novo painel |
+|`:vs <arquivo>`     | Divide a tela em duas verticalmente abrindo \<arquivo\> no novo painel  |
 
