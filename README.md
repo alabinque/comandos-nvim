@@ -13,7 +13,7 @@
    4. HTML
    5. Lua
    6. TypeScript
-   7.(Opcional) Vue e Svelte caso queira usar no front
+   7. (Opcional) Vue e Svelte caso queira usar no front
    8. Tema Dracula
    9. Neovim
    10. Gero o arquivo de conf `generate.vim`
