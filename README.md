@@ -35,14 +35,35 @@ Ex: Para criar um arquivo Elixir chamado `despachante.elx` o comando é `nvim de
 
 Usam `ESC` para entrar no modo de comando que é onde vocês inserem os comandos do VIM
 
+### Comandos Principais
+
 | Comando | O que faz |
 |---------|-----------|
 |`:q`     | Sair      |
 |`:w`     | Salvar    |
 | `:wq`   | Salvar e sair|
 | `:q!`   | Sair sem salvar (forçado) |
+| `:e <caminho> | Abre o arquivo no vim |
+| `:term` ou `:terminal` | Abre o terminal no Vim | 
+
+### Comandos de Pesquisa e Substituição
+| Comando | O que faz |
+|---------|-----------|
+|`/<palavra>`     | Pesquisa <palavra no arquivo> |
+|`n`     | Próxima ocorrência de palavra |
 
 # Modo de Edição
 
 Usa `i` para entrar no modo de edição onde vamos inserir o código.
+
+| Comando | O que faz |
+|---------|-----------|
+|`o`     | Entra no modo de inserção na linha de baixo. |
+
+# Comandos de Interface
+
+| Comando | O que faz |
+|---------|-----------|
+|`F3`     | Abre/Fecha arquivos do projeto      |
+|`F2`     | Busca arquivos na barra de arquivos |
 
