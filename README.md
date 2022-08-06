@@ -46,6 +46,14 @@ Usam `ESC` para entrar no modo de comando que é onde vocês inserem os comandos
 | `:e <caminho>` | Abre o arquivo no vim |
 | `:term` ou `:terminal` | Abre o terminal no Vim | 
 
+### Comandos de Navegação
+| Comando | O que faz |
+|---------|-----------|
+|`h`     | Esquerda  |
+|`k`     | Cima    |
+| `j`   | Baixo |
+| `l`   | Direita |
+
 ### Comandos de Pesquisa e Substituição
 | Comando | O que faz |
 |---------|-----------|
