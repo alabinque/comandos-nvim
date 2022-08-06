@@ -1,4 +1,12 @@
 # comandos-nvim
+ 
+# Iniciar / Criar Arquivo
+
+Para iniciar a edção de um arquivo ou criar um arquivo novo usamos
+
+`nvim <caminho/nome_do_arquivo>`
+
+Ex: Para criar um arquivo Elixir chamado `despachante.elx` o comando é `nvim despachante.elx` que vai criar na pasta em que o terminal está.
 
 # Modo de Comando
 
