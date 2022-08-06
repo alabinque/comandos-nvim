@@ -53,6 +53,8 @@ Usam `ESC` para entrar no modo de comando que é onde vocês inserem os comandos
 |`k`     | Cima    |
 | `j`   | Baixo |
 | `l`   | Direita |
+| `gg`   | Vai pro inicio |
+| `G`   | Vai pro fim do arquivo |
 
 ### Comandos de Pesquisa e Substituição
 | Comando | O que faz |
