@@ -53,6 +53,7 @@ Usam `ESC` para entrar no modo de comando que é onde vocês inserem os comandos
 |`k`     | Cima    |
 | `j`   | Baixo |
 | `l`   | Direita |
+| `<numero>G` | Vai para a linha \<numero\> |
 | `gg`   | Vai pro inicio |
 | `G`   | Vai pro fim do arquivo |
 
