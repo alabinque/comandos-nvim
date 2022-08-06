@@ -62,7 +62,8 @@ Usam `ESC` para entrar no modo de comando que é onde vocês inserem os comandos
 |`CTRL+X`     | Soma 1 no numero em que o cursor está.      |
  |`CTRL+A`     | Diminui 1 no numero em que o cursor está.      |
 |`r <caracter>`     | Substitui o caracter abaixo pelo inserido    |
- 
+ | `u` | Desfazer |
+ | `CTRL+R` | Refazer |
 # Modo de Edição
 
 Usa `i` para entrar no modo de edição onde vamos inserir o código.
