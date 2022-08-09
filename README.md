@@ -91,6 +91,10 @@ Usa `i` para entrar no modo de edição onde vamos inserir o código.
 |`F2`     | Busca arquivos na barra de arquivos |
  |`:sp <arquivo>`     | Divide a tela em duas horizontalmente abrindo \<arquivo\> no novo painel |
 |`:vs <arquivo>`     | Divide a tela em duas verticalmente abrindo \<arquivo\> no novo painel  |
+ |`CTRL+h`     | Vai para o painel a esquerda  |
+|`CTRL+k`     | Vai para o painel acima    |
+| `CTRL+j`   | Vai para o painel abaixo |
+| `CTRL+l`   | Vai para o painel a direita |
 
 # Terminal
 | Comando | O que faz |
