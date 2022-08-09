@@ -92,3 +92,11 @@ Usa `i` para entrar no modo de edição onde vamos inserir o código.
  |`:sp <arquivo>`     | Divide a tela em duas horizontalmente abrindo \<arquivo\> no novo painel |
 |`:vs <arquivo>`     | Divide a tela em duas verticalmente abrindo \<arquivo\> no novo painel  |
 
+# Terminal
+| Comando | O que faz |
+|---------|-----------|
+|`:term`     | Abre o terminal no vim     |
+|`:term iex` ou `:term iex -S mix`     | Abre o REPL no vim |
+ |`CTRL+\ CTRL+N`     | Volta pro modo de comando dentro do modo de terminal |
+
+
