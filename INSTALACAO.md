@@ -33,6 +33,8 @@ $ sudo make install
 # install erlang now
 $ export KERL_CONFIGURE_OPTIONS="-with-ssl=/usr/local/ssl"
 $ asdf install erlang 23.3.4.16
+```
+Solução encontrada [nessa issue](https://github.com/asdf-vm/asdf-erlang/issues/247#issuecomment-1114991944).
 </details>
 
 7. Instalar o Erlang 23 `$ asdf install erlang 23.3.4.16`
