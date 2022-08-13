@@ -15,10 +15,30 @@
 ### Instalar erlang e elixir
 4. Adicionar o plugin do Erlang `$ asdf plugin add erlang`
 5. Adicionar o plugin do Elixir `$  asdf plugin add elixir`
-6. Instalar o Erlang 23 `$ asdf install erlang 23.3.4.16`
-7. Ativar o Erlang `$ asdf global erlang 23.3.4.16`
-8. Instalar o Elixir `$ asdf install elixir 1.11.2-otp-23`
-9. Ativar o Elixir `$ asdf global elixir 1.11.2-otp-23`
+<details>
+  <summary>Caso esteja no Ubuntu (e derivados)</summary>
+  
+ > Existe um problema de compatibilidade entre a versão do OpenSSL que vem no Ubuntu e a necessaria para compilar o Erlang. Para resolver isso é necessário compilar o OpenSSL e seguir o passo-a-passo abaixo.
+```  
+$ cd /usr/local/src/
+$ sudo wget https://www.openssl.org/source/openssl-1.1.1m.tar.gz
+
+$ sudo tar -xf openssl-1.1.1m.tar.gz
+$ cd openssl-1.1.1m
+$ sudo ./config --prefix=/usr/local/ssl --openssldir=/usr/local/ssl shared zlib
+$ sudo make
+$ sudo make test
+$ sudo make install
+
+# install erlang now
+$ export KERL_CONFIGURE_OPTIONS="-with-ssl=/usr/local/ssl"
+$ asdf install erlang 23.3.4.16
+</details>
+
+7. Instalar o Erlang 23 `$ asdf install erlang 23.3.4.16`
+8. Ativar o Erlang `$ asdf global erlang 23.3.4.16`
+9. Instalar o Elixir `$ asdf install elixir 1.11.2-otp-23`
+10. Ativar o Elixir `$ asdf global elixir 1.11.2-otp-23`
 
 ## Instalar o neovim
 
