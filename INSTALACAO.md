@@ -56,7 +56,7 @@ Solução encontrada [nessa issue](https://github.com/asdf-vm/asdf-erlang/issues
    5. Lua
    6. TypeScript
    7. (Opcional) Vue e Svelte caso queira usar no front
-   8. Tema Dracula
+   8. Tema Dracul
    9. Neovim
    10. Gero o arquivo de conf `generate.vim`
 3. Moveu o arquivo de conf para a pasta de conf do neovim (varia conforme o Sistema Operacional), no caso:
@@ -65,5 +65,29 @@ Solução encontrada [nessa issue](https://github.com/asdf-vm/asdf-erlang/issues
 
 > Caso depois de iniciar o nvim pós-config e não acontecer nada é necessário rodar o comando `:PlugInstall`
 
-## Configurando o LSP
+## Instalando e configurando o LSP
+> Antes instale o node caso não tenha `curl -sL install-node.vercel.app/lts | bash`
+1. Instalar o `coc.nvim` adicionando a seguinte linha em seu `vim.init`: 
+  - `Plug 'neoclide/coc.nvim', {'branch': 'release'}`
+2. Rodar o comando `:PlugInstall`
+3. Rodar o comando `:CocInstall coc-elixir`
+<details>
+  <summary>Caso o LSP tenha erro ao iniciar</summary>
+  
+ > Isso pode acontecer por uma incompatibilidade entre a versão do Erlang que o LSP foi compilado e a versão instalada no seu computador para resolver isso siga o passo-a-passo.
+
+1. Clone e faça a build do projeto.
+```
+$ git clone https://github.com/elixir-lsp/elixir-ls.git ~/.elixir-ls
+$ cd ~/.elixir-ls
+$ mix deps.get && mix compile && mix elixir_ls.release -o release
+```
+2. Abra o `nvim` e entre o comando `:CocConfig` para abrir o arquivo de configuração do coc, então adicione a linha abaixo, salve e feche.
+```json
+{
+  "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh"
+}
+```
+3. Feche e abra novamente o `nvim`, o LSP deve estar funcionando.
+</details>
 
