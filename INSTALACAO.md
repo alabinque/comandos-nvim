@@ -56,7 +56,7 @@ Solução encontrada [nessa issue](https://github.com/asdf-vm/asdf-erlang/issues
    5. Lua
    6. TypeScript
    7. (Opcional) Vue e Svelte caso queira usar no front
-   8. Tema Dracul
+   8. Tema Dracula
    9. Neovim
    10. Gero o arquivo de conf `generate.vim`
 3. Moveu o arquivo de conf para a pasta de conf do neovim (varia conforme o Sistema Operacional), no caso:
