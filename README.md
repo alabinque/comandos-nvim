@@ -1,4 +1,4 @@
-# comandos-nvim
+# Neovim Cheat Sheet
 
 # Iniciar / Criar Arquivo
 
