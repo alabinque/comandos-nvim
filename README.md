@@ -1,5 +1,6 @@
 # Neovim Cheat Sheet
 
+> Caso tenha interesse em saber como instalar e configurar o `nvim` para Elixir acesse [Instalação](./INSTALACAO.md)
 # Iniciar / Criar Arquivo
 
 Para iniciar a edção de um arquivo ou criar um arquivo novo usamos
